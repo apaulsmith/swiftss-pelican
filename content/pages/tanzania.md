@@ -1,3 +1,6 @@
+Title: Tanzania
+Summary: Where we work
+
 # Where we work
 
 ##Tanzania

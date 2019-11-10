@@ -1,3 +1,6 @@
+Title: Projects
+Summary: Our projects
+
 #Our Projects
 
 ## Mesh Hernia Repair

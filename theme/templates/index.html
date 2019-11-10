@@ -3,15 +3,19 @@
 {% block title %}{{ SITENAME }}{% endblock %}
 
 {% block content %}
-<div class="row">
-  <div class="col-md-8">
-    <h1>{{ SITENAME }}</h1>
-    {% for article in articles %}
-    <h2><a href="/{{ article.slug }}.html">{{ article.title }}</a></h2>
-    <label>Posted on <strong>{{ article.date }}</strong></label>
-    {{ article.content|truncate(110) }}
-    {% else %}
-    No posts yet!
+<div class="container">
+  <div class="card-deck mb-3 text-center">
+    {% for page in pages %}
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h5 class="my-0 font-weight-normal">
+          <a href="pages/{{ page.slug }}.html">{{ page.title }}</a>
+        </h5>
+      </div>
+      <div class="card-body">
+        <label>{{ page.summary }}</label>
+      </div>
+    </div>
     {% endfor %}
   </div>
 </div>

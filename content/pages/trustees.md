@@ -1,3 +1,6 @@
+Title: Trustees
+Summary: Who we are
+
 #Who We Are
 
 ##Founder

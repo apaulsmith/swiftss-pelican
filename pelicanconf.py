@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'SWIFTSS'
 SITENAME = 'SWIFTSS'
+SITEDESCRIPTION = 'Surgical teams Working in Africa Together for Safer Surgery'
 SITEURL = 'https://www.swiftss.org'
 
 PATH = 'content'
@@ -11,6 +12,8 @@ PATH = 'content'
 TIMEZONE = 'Europe/London'
 
 DEFAULT_LANG = 'en'
+
+THEME = 'theme'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
